@@ -4,7 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "prettier": {
-    "tabWidth": 2
+    "tabWidth": 2,
+    "printWidth": 80,
+    "useTabs": false,
+    "singleQuote": false,
+    "bracketSpacing": false,
+    "explicitTypes": "always"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
